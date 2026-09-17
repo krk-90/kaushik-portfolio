@@ -11,7 +11,7 @@
   <header class="site-header">
     <nav class="nav container">
       <a class="brand" href="#home">KR<span>.</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-actions"><button class="theme-toggle" aria-label="Switch to dark mode">🌙</button><button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -24,6 +24,7 @@
   <main>
     <section id="home" class="hero container">
       <div class="hero-copy">
+        <div class="avatar-wrap"><a href="profile.png" target="_blank" rel="noreferrer"><img class="avatar" src="profile.png" alt="Kaushik Rajagiri" /></a></div>
         <p class="eyebrow">AI / GENERATIVE AI DEVELOPER</p>
         <h1>Building practical systems with <span>AI.</span></h1>
         <p class="hero-text">
@@ -50,7 +51,7 @@
       </div>
     </section>
 
-    <section id="about" class="section container">
+    <section id="about" class="section container reveal">
       <p class="eyebrow">ABOUT</p>
       <h2>Curious about intelligent systems.</h2>
       <p class="section-intro">
@@ -61,11 +62,17 @@
       </p>
     </section>
 
-    <section id="projects" class="section container">
+    <section id="projects" class="section container reveal">
       <p class="eyebrow">SELECTED WORK</p>
       <h2>Projects from GitHub</h2>
+      <div class="project-toolbar" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="agent">Agents</button>
+        <button class="filter-btn" data-filter="rag">RAG</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+      </div>
       <div class="project-grid">
-        <article class="project-card featured">
+        <article class="project-card featured reveal" data-category="agent">
           <p class="project-type">AGENTIC AI · NETWORKING</p>
           <h3>Network Debugger Agent</h3>
           <p>Agentic RAG project focused on network debugging workflows and tool-based investigation.</p>
@@ -73,7 +80,7 @@
           <a href="https://github.com/krk-90/Network-Debugger-Agent-powered-by-agentic-RAG" target="_blank" rel="noreferrer">View repository ↗</a>
         </article>
 
-        <article class="project-card">
+        <article class="project-card reveal" data-category="rag">
           <p class="project-type">GENERATIVE AI · HYBRID RAG</p>
           <h3>Code Assistant — Hybrid RAG</h3>
           <p>Codebase and document Q&A assistant using vector retrieval, BM25, reranking, Groq generation, and FastAPI.</p>
@@ -81,7 +88,7 @@
           <a href="https://github.com/krk-90/CODEBASE-ASSISTANT-powered-by-HYBRID_RAG" target="_blank" rel="noreferrer">View repository ↗</a>
         </article>
 
-        <article class="project-card">
+        <article class="project-card reveal" data-category="rag">
           <p class="project-type">RAG · OBSERVABILITY</p>
           <h3>RAG with LangChain</h3>
           <p>Retrieval-augmented generation pipeline with ingestion, evaluation metrics, API endpoints, and structured tracing.</p>
@@ -89,7 +96,7 @@
           <a href="https://github.com/krk-90/RAG_WITH_LANGCHAIN" target="_blank" rel="noreferrer">View repository ↗</a>
         </article>
 
-        <article class="project-card">
+        <article class="project-card reveal" data-category="tools">
           <p class="project-type">MCP · TOOLING</p>
           <h3>MCP and Tools</h3>
           <p>Practice repository exploring MCP servers, clients, tool creation, and deployment concepts.</p>
@@ -97,7 +104,7 @@
           <a href="https://github.com/krk-90/mcp-and-tools" target="_blank" rel="noreferrer">View repository ↗</a>
         </article>
 
-        <article class="project-card">
+        <article class="project-card reveal" data-category="agent">
           <p class="project-type">CONVERSATIONAL AI</p>
           <h3>Simple Chatbot Q&A</h3>
           <p>A lightweight conversational Q&A chatbot with a backend/frontend split.</p>
@@ -107,7 +114,7 @@
       </div>
     </section>
 
-    <section id="skills" class="section container">
+    <section id="skills" class="section container reveal">
       <p class="eyebrow">SKILLS</p>
       <h2>What I am learning and using</h2>
       <div class="skills-list">
@@ -118,12 +125,12 @@
       </div>
     </section>
 
-    <section id="contact" class="section contact container">
+    <section id="contact" class="section contact container reveal">
       <p class="eyebrow">CONTACT</p>
       <h2>Let's connect.</h2>
       <p>Open to learning opportunities, collaborations, and AI-focused internships.</p>
       <div class="contact-links">
-        <a href="mailto:rajagirikaushik@gmail.com">Email ↗</a>
+        <a href="mailto:rajagirikaushik26@gmail.com">Email ↗</a>
         <a href="https://www.linkedin.com/in/kaushik-rajagiri-563408421" target="_blank" rel="noreferrer">LinkedIn ↗</a>
         <a href="https://github.com/krk-90" target="_blank" rel="noreferrer">GitHub ↗</a>
       </div>
