@@ -28,11 +28,6 @@ Networking-focused AI troubleshooting project using agentic retrieval and diagno
 
 - [Source code](https://github.com/krk-90/Network-Debugger-Agent-powered-by-agentic-RAG)
 
-### Hybrid RAG Code Assistant
-Codebase Q&A using dense and sparse retrieval with reranking and LLM-generated responses.
-
-- [Source code](https://github.com/krk-90/CODEBASE-ASSISTANT-powered-by-HYBRID_RAG)
-
 ### Clocket AI
 Developer onboarding assistant concept for repository analysis, architecture explanations, setup guidance, and repository-grounded Q&A.
 
