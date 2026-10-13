@@ -17,6 +17,11 @@ AI-powered open-source contribution assistant for repository exploration, skill-
 - [Source code](https://github.com/krk-90/OpenForge-AI)
 - [Live demo](https://openforge-ai-wbjh.onrender.com/)
 
+### Hybrid RAG Codebase Assistant
+Codebase question-answering assistant combining dense vector retrieval with sparse keyword search and reranking to produce grounded answers from relevant code context.
+
+- [Source code](https://github.com/krk-90/CODEBASE-ASSISTANT-powered-by-HYBRID_RAG)
+
 ### Personal Assistant
 Agentic assistant project exploring LangGraph orchestration, MCP tools, retrieval, memory, and backend integration.
 
