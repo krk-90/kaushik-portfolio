@@ -16,6 +16,7 @@ AI-powered open-source contribution assistant for repository exploration, skill-
 
 - [Source code](https://github.com/krk-90/OpenForge-AI)
 - [Live demo](https://openforge-ai-wbjh.onrender.com/)
+- **Recorded online evaluation (Oct 14, 2026):** 8/9 checks passed (88.89%) in 61.33 seconds. The documentation endpoint returned HTTP 502 and is still under investigation. This run validates API contracts and session persistence only; it does not measure RAG answer quality or security robustness.
 
 ### Hybrid RAG Codebase Assistant
 Codebase question-answering assistant combining dense vector retrieval with sparse keyword search and reranking to produce grounded answers from relevant code context.
